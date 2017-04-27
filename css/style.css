@@ -1,5 +1,5 @@
 body {
-	background-color: grey;
+	background-color: lightgrey;
 	color: black;
 }
 #webpage_table {
@@ -51,10 +51,15 @@ body {
 #hours_count {
 }
 .count {
-	border: 3px solid black;
+	border: 3px solid white;
 	border-radius: 100%;
 	padding: 5px;
-	font-size: 28px;
+	font-size: 52px;
+	font-weight: bold;
+	color: #4286f4;
+}
+.count_label {
+	font-size: 20px;
 }
 #product {
 	width: 100%;
