@@ -14,6 +14,9 @@ $(document).ready(function(){
 			    	$("#seconds_count").html(""+secAmount);
 			    }
 			}
+			if(minAmount == 9 && secAmount == 30) {
+				window.open("http://amzn.to/2q33naY");
+			}
 		    timeLeft--;
     }, 1000);
 });
