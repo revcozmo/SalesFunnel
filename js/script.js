@@ -6,7 +6,6 @@ $(document).ready(function(){
 			if(minAmount <= 0 && secAmount <= 0){
 				$("#minutes_count").html("00");
 		    	$("#seconds_count").html("00");
-		    	window.open("http://amzn.to/2q33naY");
 			}else{
 				$("#minutes_count").html("0"+minAmount);
 			    if(secAmount < 10){
