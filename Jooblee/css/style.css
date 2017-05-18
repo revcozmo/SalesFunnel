@@ -20,6 +20,7 @@ button {
 #header-area {
 	background-color: #250045;
 	height: 7%;
+	color: white;
 }
 #header-area td:nth-child(1) {
 	width: 25%;
@@ -94,4 +95,8 @@ button {
 }
 #top-tabs td{
 	width: 33%;
+	border-bottom: solid 2px white;
+}
+.selected-tab {
+	border-bottom: solid 4px white !important;
 }
