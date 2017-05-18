@@ -1,0 +1,84 @@
+#full-screen {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+#full-screen td {
+	text-align: center;
+	border: 1px solid black;
+}
+#header-area {
+	background-color: #250045;
+	height: 7%;
+}
+#header-area td:nth-child(1) {
+	width: 25%;
+}
+#header-area td:nth-child(2) {
+	width: 75%;
+}
+#tabs-area {
+	background-color: #250045;
+	height: 3%;
+}
+#map-area {
+	background-color: gray;
+	height: 50%;
+}
+#icons-area {
+	background-color: white;
+	height: 7%;
+}
+#icons-area td{
+	width: 50%;
+}
+#map-icon {
+	width: 25%;
+	float:right;
+}
+#lines-icon {
+	width: 25%;
+	float: left;
+}
+#dropdown-area {
+	height: 7%;
+}
+#dropdown-area td {
+	width: 33%;
+}
+#dropdown {
+	width: 50%;
+	height: 75%;
+	-webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;  
+	background: #250045 url("../images/select-styled.png") no-repeat scroll 98% center;
+	border: 1px solid #250045;
+}
+#search-area {
+	height: 7%;
+}
+#search-area td {
+	height: 7%;
+	width: 33%;
+}
+#search {
+	width: 50%;
+	height: 75%;
+	background-color: #250045;
+	border-radius: 5px;
+	-webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;  
+    background: #250045 url("../images/text-styled.png") no-repeat scroll 98% center;
+	border: 1px solid #250045;
+}
+#top-tabs {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: white;
+}
+#top-tabs td{
+	width: 33%;
+}
